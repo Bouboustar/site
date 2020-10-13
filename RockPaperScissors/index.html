@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kharix.fr | RPS </title>
+        <link rel="stylesheet" type="text/css" media="all" href="./css/rps.css">
+    </head>
+    <body>
+
+        <header><h1>RPS Game</h1></header>
+        <div class="scoreboard">
+            <div id="user" class="badge">Joueur</div>
+            <div id="computer" class="badge">Ordinateur</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+        <div class="result">
+            <p>R&eacute;sultat</p>
+        </div>
+        <div class="choices">
+            <div class="choice" id="rock">
+                <div class="circle_title">
+                    <h2>Pierre</h2>
+                    <h3>Gagne contre le ciseau</h3>
+                </div>
+                <div class="img">
+                    <img src="img/rock-icon.png" alt="rock">
+                </div>
+            </div>
+            <div class="choice" id="paper">
+                <div class="circle_title">
+                    <h2>Papier</h2>
+                    <h3>Gagne contre la pierre</h3>
+                </div>
+                <div class="img">
+                    <img src="img/paper-icon.png" alt="Paper">
+                </div>
+            </div>
+            <div class="choice" id="scissors">
+                <div class="circle_title">
+                    <h2>Ciseau</h2>
+                    <h3>Gagne contre le papier</h3>
+                </div>
+                <div class="img">
+                    <img src="img/scissors-icon.png" alt="Scissors">
+                </div>
+            </div>
+        </div>
+        <p id="play">Choissisez bien</p>
+        <script src="js/main.js" charset="utf-8"></script>
+    </body>
+</html>

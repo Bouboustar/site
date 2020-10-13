@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,500,700);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #24272E;
+}
+header{
+    background: white;
+    padding: 20px;
+}
+header > h1{
+    color:#24272E;
+    text-align:center;
+    font-family: "Nunito", sans-serif;
+}
+.scoreboard{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    font-size:46px;
+    padding: 15px 20px;
+    font-family: "Nunito", sans-serif;
+    position: relative;
+}
+.badge{
+    background:red;
+    color:white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: "Nunito",sans-serif;
+}
+#user {
+    position: absolute;
+    top:30px;
+    left:-63px;
+}
+#computer {
+    position: absolute;
+    top:30px;
+    right:-90px;
+}
+.result{
+    font-size: 40px;
+    color: white;
+}
+.result > p{
+    text-align: center;
+    font-family: 'Nunito',sans-serif;
+}
+.choice{
+    display:inline-block;
+    padding:10px;
+    margin: 0 15px;
+}
+.choices{
+    margin:50px 0;
+    text-align: center;
+}
+img{
+    width:300px
+}
+
+.choice:hover{
+    cursor:pointer;
+}
+:hover h2, :hover h3{
+    opacity:1;
+    top:-36px
+}
+:hover h2{
+    transition:all .2s .04;
+}
+:hover h3{
+    transition:all .2s;
+}
+body .choice:hover h2, body .choice:hover h3 {
+    opacity: 1;
+    top: -36px;
+}
+
+body .choice:hover h2 {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+body .circle_title {
+    text-align: center;
+}
+body .circle_title h2, body .circle_title h3 {
+    opacity: 0;
+    color: white;
+    margin: 0;
+    -webkit-transition: all .2s .04s;
+    transition: all .2s .04s;
+    position: relative;
+    top: -10px;
+    font-size: 45px;
+}
+  body .circle_title h3 {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: red;
+    font-size: 30px;
+}
+#play{
+    text-align: center;
+    color:white;
+    font-family: 'Nunito',sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
